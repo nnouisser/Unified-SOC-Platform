@@ -107,8 +107,8 @@ Sysmon captures process, network and registry events on a Windows VM. Winlogbeat
 
 | Component | Approach |
 |---|---|
-| Anomaly detection | Isolation Forest, 11 engineered features (command length and entropy, offensive keywords, rare process, suspicious path, external IPs, privileged user...), score calibrated to 0-100. Benchmarked against One-Class SVM (F1 0.68, recall 0.79 on a 5,000-log labeled set), then retrained on real Sysmon data (3 % false positives) |
-| Threat classification | Random Forest vs XGBoost on 5 ATT&CK-aligned families, with an explicit train/test check against overfitting |
+| Anomaly detection |Isolation Forest, 11 engineered features (command length and entropy, offensive keywords, rare process, suspicious path, external IPs, privileged user...), score calibrated to 0-100. Dataset of 5,000 logs (F1 0.682, recall 0.787). |
+| Threat classification | Random Forest on 5 ATT&CK-aligned families, with an explicit train/test check against overfitting (F1 Train 0.975 vs F1 Test 0.950) |
 | Incident summary | LLM (Llama 3.3 via Groq) turns the case data into an executive summary |
 | Analyst assistant | RAG: the question triggers a retrieval from MongoDB (IOCs, cases, reports) and the retrieved data is injected into the prompt, so answers stay grounded in platform data |
 
