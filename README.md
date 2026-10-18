@@ -137,7 +137,8 @@ An n8n workflow receives a webhook from the hunting pipeline when severity is Hi
 6. The analyst receives the automatic email.
 
 <!-- CAPTURE 16: attack simulation commands on the VM -->
-![Attack simulation](docs/screenshots/16-attack.png)
+![Attack simulation](docs/screenshots/16-attack1.png)
+![Attack simulation](docs/screenshots/16-attack2.png)
 
 ## Tech stack
 
