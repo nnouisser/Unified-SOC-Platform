@@ -80,7 +80,8 @@ Sysmon captures process, network and registry events on a Windows VM. Winlogbeat
 ![MITRE ATT&CK matrix](docs/screenshots/07-mitre.png)
 
 <!-- CAPTURE 08: rule search and installed rules -->
-![Rule management](docs/screenshots/08-rules.png)
+![Rule management](docs/screenshots/08-rules1.png)
+![Rule management](docs/screenshots/08-rules2.png)
 
 ### 3. Digital Forensics and Incident Response
 
