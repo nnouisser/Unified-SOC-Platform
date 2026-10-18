@@ -139,7 +139,7 @@ On the monitored VM, a credential-access command (mimikatz sekurlsa::logonpasswo
 
 ## Tech stack
 
-Python, Flask, React, Tailwind CSS, MongoDB, Elasticsearch, Sysmon, Winlogbeat, Sigma, YARA, MITRE ATT&CK, STIX 2.1, Velociraptor, Volatility 3, scikit-learn, XGBoost, Groq API (Llama 3.3), n8n, Docker Compose.
+Python, Flask, React, Tailwind CSS, MongoDB, Elasticsearch, Sysmon, Winlogbeat, Sigma, YARA, MITRE ATT&CK, STIX 2.1, Velociraptor, Volatility 3, scikit-learn, Groq API (Llama 3.3), n8n, Docker Compose.
 
 ## Skills demonstrated
 
@@ -150,23 +150,4 @@ Python, Flask, React, Tailwind CSS, MongoDB, Elasticsearch, Sysmon, Winlogbeat, 
 - LLM integration: RAG architecture, grounded responses
 - Automation and deployment: n8n workflows, Docker Compose
 
-## Limitations and roadmap
 
-**Current limitations**
-- Prototype with no authentication or access control
-- A single monitored endpoint; the collection pipeline is not a full multi-source SIEM
-- The classifier is trained on a synthetic dataset and is not yet wired into the live hunting pipeline
-- RAG retrieval is keyword-based, not vector-based
-
-**Roadmap**
-- Dark web threat intelligence sources
-- Local LLM deployment to keep incident data on-premise
-- Authentication, role-based access control and audit logging
-- Scoring ML for IOCs and disk forensics
-
-## Author
-
-**Oumaima Nouisser**, Cybersecurity Engineering student, EPI Sousse
-Supervisor: Mr. Jasser Guesmi
-
-[LinkedIn](https://linkedin.com/in/oumaima-nouisser) · [GitHub](https://github.com/nnouisser) · nouisseroumaima@gmail.com
