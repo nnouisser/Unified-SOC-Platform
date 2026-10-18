@@ -115,8 +115,8 @@ Sysmon captures process, network and registry events on a Windows VM. Winlogbeat
 ![AI assistant](docs/screenshots/12-ai2.png)
 
 <!-- CAPTURE 13: terminal output of the model results -->
-![Model results](docs/screenshots/13-ml-results.png)
-
+![Model results](docs/screenshots/13-ml-results1.png)
+![Model results](docs/screenshots/13-ml-results2.png)
 ### 5. Security automation (SOAR)
 
 An n8n workflow receives a webhook from the hunting pipeline when severity is High or Critical, filters it, and emails the analyst an HTML incident summary (severity, alerts per engine, MITRE techniques).
