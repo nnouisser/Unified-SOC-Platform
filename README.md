@@ -7,8 +7,8 @@
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
 
-> End-of-study internship project, Gérance Informatique, EPI Digital School (2025/2026).
-> **The source code is private** (internship project). This repository presents the project, its architecture and its results. Code review is available on request.
+> Summer internship project
+> **The source code is private** (internship project). This repository presents the project, its architecture and its results.
 
 <!-- CAPTURE 01: global dashboard / home page of the platform -->
 ![Platform overview](docs/screenshots/01-overview.png)
