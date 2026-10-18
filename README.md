@@ -96,7 +96,9 @@ Sysmon captures process, network and registry events on a Windows VM. Winlogbeat
 ![DFIR case](docs/screenshots/09-dfir-case.png)
 
 <!-- CAPTURE 10: Velociraptor / Volatility cards and correlated artifacts -->
-![Forensic artifacts](docs/screenshots/10-dfir-artifacts.png)
+![Forensic artifacts](docs/screenshots/10-dfir-artifacts1.png)
+![Forensic artifacts](docs/screenshots/10-dfir-artifacts2.png)
+
 
 <!-- CAPTURE 11: incident timeline with one expanded event -->
 ![Incident timeline](docs/screenshots/11-timeline.png)
