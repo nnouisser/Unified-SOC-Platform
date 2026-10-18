@@ -111,7 +111,8 @@ Sysmon captures process, network and registry events on a Windows VM. Winlogbeat
 | Analyst assistant | RAG: the question triggers a retrieval from MongoDB (IOCs, cases, reports) and the retrieved data is injected into the prompt, so answers stay grounded in platform data |
 
 <!-- CAPTURE 12: AI summary and a chatbot answer -->
-![AI assistant](docs/screenshots/12-ai.png)
+![AI assistant](docs/screenshots/12-ai1.png)
+![AI assistant](docs/screenshots/12-ai2.png)
 
 <!-- CAPTURE 13: terminal output of the model results -->
 ![Model results](docs/screenshots/13-ml-results.png)
