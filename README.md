@@ -8,7 +8,7 @@
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
 
 > Summer internship project
-> **The source code is private** (internship project). This repository presents the project, its architecture and its results.
+> This repository presents the project, its architecture and its results.
 
 <!-- CAPTURE 01: global dashboard / home page of the platform -->
 ![Platform overview](docs/screenshots/01-overview.png)
