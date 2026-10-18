@@ -32,7 +32,6 @@ A unified platform where the modules share data automatically: an IOC found whil
 | **4** threat intelligence sources queried in parallel | OTX, VirusTotal, AbuseIPDB, MISP CIRCL |
 | **11,700+** Windows events collected in real time | Sysmon → Winlogbeat → Elasticsearch |
 | **13+** Sigma / YARA rules operated | with one-click install from GitHub |
-| **3 %** false-positive rate | Isolation Forest retrained on 1,984 real Sysmon events |
 | **5 Sigma + 1 YARA** alerts | on a simulated attack chain |
 | **5** Docker services | API, frontend, MongoDB, Elasticsearch, n8n |
 
