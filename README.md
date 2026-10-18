@@ -131,12 +131,7 @@ An n8n workflow receives a webhook from the hunting pipeline when severity is Hi
 
 ## End-to-end scenario
 
-1. On the monitored VM, a credential-access command, an encoded PowerShell command and a scheduled task are executed (simulations, no real malware).
-2. Sysmon and Winlogbeat ship the events; they are normalized into the unified schema.
-3. The hunting analysis flags them with Sigma, YARA and the anomaly detector, and maps them to MITRE ATT&CK.
-4. Extracted IOCs are enriched by CTI and a DFIR case is created.
-5. Velociraptor and Volatility artifacts are correlated to the case and merged into the timeline.
-6. The analyst receives the automatic email.
+On the monitored VM, a credential-access command (mimikatz sekurlsa::logonpasswords), a copy of cmd.exe to %TEMP%\mimikatz.exe, and a scheduled task (schtasks /create /tn backdoor2 /tr C:\evil.exe /sc onlogon) are executed (simulations, no real malware).
 
 <!-- CAPTURE 16: attack simulation commands on the VM -->
 ![Attack simulation](docs/screenshots/16-attack1.png)
